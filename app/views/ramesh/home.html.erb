@@ -1,0 +1,129 @@
+<html>
+<body>
+ <table> 
+
+       
+        <tr>
+           
+            <td><strong>Name:</strong></td>
+
+        <td>
+            <!-- Textbox -->
+            <input type="text" name="name"/>
+        </td>
+        <!-- Close Second row -->
+
+        </tr>
+
+        <!-- Creting First Columns -->
+        <td><strong>Email:</strong></td>
+
+        <!-- Creating Second Columns -->
+        <td>
+            <!-- Textbox -->
+            <input type="text" name="email"/>
+        </td>
+        <!-- Close Second row -->
+        </tr>
+
+        <tr>
+            <td><strong>Age:</strong></td>
+            <td>
+                <!-- Textbox -->
+                <input type="text" name="age" size="2"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td><strong>Gender:</strong></td>
+            <td>
+                <!-- Radio Butong -->
+                <input type="radio" name="gender" value="Male"/>Male
+                <input type="radio" name="gender" value="Female"/>Female
+
+            </td>
+        </tr>
+
+        <tr>
+            <td><strong>Language:</strong></td>
+            <td>
+                <!-- Check box -->
+                <input type="checkbox" name="language" value="Hindi"/>Hindi
+                <input type="checkbox" name="language" value="Telugu"/>Telugu
+                <input type="checkbox" name="language" value="English"/>English
+            </td>
+        </tr>
+
+        <tr>
+            <td><strong>Country:</strong></td>
+            <td>
+                <!-- Combo Box -->
+                <select name="country"/>
+                <option value="" selected/>
+                --Select--
+                <option value="indi"/>
+                India
+                <option value="pakistan"/>
+                Pakistan
+                <option value="beangladesh"/>
+                Beangladesh
+                <option value="srilanka"/>
+                Srilanka
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td><strong>Address:</strong></td>
+            <td>
+                <!-- TextArea -->
+                <textarea rows="5" cols="20" name="address"/></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td><strong>Username:</strong></td>
+            <td>
+
+                <!-- Textbox -->
+                <input type="text" name="u_name"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td><strong>Password:</strong></td>
+            <td>
+                <!-- Password Field -->
+                <input type="password" name="psw"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td><strong>Retype Password:</strong></td>
+            <td>
+                <!-- Password Field -->
+                <input type="password" name="r_pass"/>
+            </td>
+        </tr>
+
+        <tr align="center">
+
+            <td>
+                <!--Submit Button, Function verify need to be called when we process
+                submit button-->
+                <input type="submit" value="Submit" onClick="return (verify());"/>
+            </td>
+
+            <td>
+                <!--Reset Button-->
+                <input type="reset">
+            </td>
+        </tr>
+
+        <!--Table Close-->
+    </table>
+
+
+
+</body>
+</html>
